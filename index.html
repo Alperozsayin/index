@@ -7,16 +7,32 @@
     <body>
 
 <form action="https://script.google.com/macros/s/AKfycbzZ0iu-z-FnNcPPQRctHXKGJIB7UD_-OaI9XPLMxWAcMVzkxF7Jm4vdFe0R3hRHAgGE/exec" method="post">
-    <label for="k.adi">Kullanıcı adı:</label>
-    <input name="kullaniciAdi" placeholder="Kullanıcı adınızı yazınız" required maxlength="5" id="k.adi" type="text"><br>
-    
-    <label for="sifre">Şifre:</label>
-    <input name="sifre" required id="sifre" type="password"><br>
+    <label for="k.no">UID Numaranız:</label>
+    <input name="kullanıcıuid" placeholder="UID no yazınız" required id="k.no" type="text"><br>
+
+    <label for="adsoyad">İsim Soyisim:</label>
+    <input name="adsoyad" placeholder="Adınızı ve Soyadınızı yazın." required id="adsoyad" type="text"><br>
+
+    <label for="t.adi">Telegram Kullanıcı adı:</label>
+    <input name="telegramAdi" placeholder="Telegram adınızı yazınız." required id="t.adi" type="text"><br>
     
     <label for="eposta">E-posta:</label>
-    <input name="eposta" type="email" id="eposta"><br>
+    <input name="eposta" placeholder="E-posta adresiniz" type="email" id="eposta"><br>
 
-    <input type="submit" value="Gönder">
+
+    <label>
+        <input type="radio" name="cinsiyet" value="Erkek"> Erkek
+    </label>
+    <label>
+        <input type="radio" name="cinsiyet" value="kadın" > Kadın
+    </label><br>
+    <input type="submit">
+    <input type="hidden" name="test" value="test">
+    <input type="reset" value="sıfırla"><br><br>
+
+    
+
+
 </form>
  
     </body>
