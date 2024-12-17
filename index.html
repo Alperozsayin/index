@@ -6,35 +6,22 @@
     </head>
     <body>
 
-       <form action="https://alperozsayin.github.io/index/" method="post">
-            <label for="k.adı">kullanıcı adı</label>
-            <input placeholder="kullanıcı adınızı yazınız" required maxlength="5" id="k.adı" type="text"><br>
-            <label for="sifre">şifre</label>
-            <input required id="sifre" type="password"><br>
-            <label for="eposta">E-posta</label>
-            <input type="email" id="eposta"><br>
-            <label for="Dosya">Dosya seç</label>
-            <input required id="Dosya" type="file"><br>
-        <label>
-            <input type="checkbox"> kuralları kabul ediyorum
-        </label> <br>
-        <label>
-            <input type="checkbox" checked> kuralları kabul ediyorum 2 
-        </label> <br>
-        <label>
-            <input type="radio" name="cinsiyet" value="Erkek"> Erkek
-        </label>
-        <label>
-            <input type="radio" name="cinsiyet" value="kadın" > Kadın
-        </label>
-        <input type="submit">
-        <input type="hidden" name="test" value="test">
-        <input type="reset" value="sıfırla"><br><br>
+       <form action="https://YOUR_WEB_APP_URL" method="post">
+    <label for="k.adi">Kullanıcı adı:</label>
+    <input name="kullaniciAdi" placeholder="Kullanıcı adınızı yazınız" required maxlength="5" id="k.adi" type="text"><br>
+    
+    <label for="sifre">Şifre:</label>
+    <input name="sifre" required id="sifre" type="password"><br>
+    
+    <label for="eposta">E-posta:</label>
+    <input name="eposta" type="email" id="eposta"><br>
+    
+    <label for="Dosya">Dosya seç:</label>
+    <input required id="Dosya" type="file"><br>
 
-        <input type="month"autofocus><br>
-        <input type="week" ><br>
-        <input type="date"> <br>
-        </form>
+    <input type="submit" value="Gönder">
+    <input type="reset" value="Sıfırla"><br>
+</form>
  
     </body>
 </html> 
